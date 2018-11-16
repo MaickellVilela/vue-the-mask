@@ -1,13 +1,13 @@
 {
-  "name": "vue-the-mask",
+  "name": "vue-the-mask2",
   "version": "0.11.1",
-  "description": "Tiny (2KB) and dependency free mask input for Vue.js",
+  "description": "Fork from Vue the mask",
   "main": "dist/vue-the-mask.js",
   "scripts": {
     "size": "size-limit",
     "upgrade:check": "ncu",
     "upgrade:apply": "ncu -a",
-    "build": "vue build -t lib -n VueTheMask src && cp dist/VueTheMask.umd.min.js dist/vue-the-mask.js",
+    "build": "vue-cli-service build --target lib --name VueTheMask src/index.js && cp dist/VueTheMask.umd.min.js dist/vue-the-mask.js",
     "docs:build": "cd src/docs && vue build -d ../../docs/",
     "docs:serve": "serve ./",
     "start": "yarn dev",
