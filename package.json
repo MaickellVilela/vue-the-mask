@@ -75,7 +75,10 @@
     }
   },
   "browserslist": [
-    "last 2 chrome versions"
+    "Firefox >= 30",
+    "Chrome > 40",
+    "Safari > 9",
+    "Explorer >= 8"
   ],
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-beta.10",
