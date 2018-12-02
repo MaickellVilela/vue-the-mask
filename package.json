@@ -1,6 +1,6 @@
 {
   "name": "vue-the-mask2",
-  "version": "0.11.2",
+  "version": "0.11.3",
   "description": "Fork from Vue the mask",
   "main": "dist/vue-the-mask.js",
   "scripts": {
